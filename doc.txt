@@ -1,1 +1,13 @@
 Bugungi darsimiz git bilan ishlash
+
+git init    =>    gitni o'rnatib olish
+git add <file_name>    =>   local gitga file qo'shish
+git add .    =>   local gitga filelarni hammsini birdaniga qo'shish
+git commit -M "desc"    =>    commentariya qoldirish 
+
+git remote -v origin "--link--"    =>    <link>  repo bilan aloqa o'rnatish
+
+git status    =>    localniy qaysi papkalar qo'shilmaganini tekshirish
+                    holatinii tekshirish
+
+git push origin <branch_name>    =>    <branch_name> ga code larni push qilish
